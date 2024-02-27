@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Breaking_Bad.css">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <title>¡Qué comience el juego!</title>
+</head>
+<body class="form" id="fondo">
+    <br>
+    <p><h1>Breaking Bad - ¡Qué comience el juego!</h1></p>
+    <form name="formulario" method="post" action="mailto:raul.rodriguez@proeducaglobal.com">
+    <fieldset>
+        <legend>Formulario de Registro</legend>
+        <fieldset>
+            <legend>Datos Personales</legend>
+            Nombre: <input type="text" name="nombre" required>
+            Apellidos: <input type="text" name="apellidos" required>
+            DNI: <input type="text">
+        </fieldset>
+        <fieldset>
+            <legend>Dirección</legend>
+            Calle: <input type="text">
+            Número: <input type="text">
+            Piso: <input type="text">
+            <br>
+            <br>
+            Código postal: <input type="text">
+            Ciudad: <input type="text">
+        </fieldset>
+        <fieldset>
+            <legend>Otros Datos</legend>
+            Sexo: <input type="radio" name="Sexo" value="Hombre">Hombre
+                  <input type="radio" name="Sexo" value="Mujer">Mujer
+            Fecha de nacimiento: <input type="date">
+        </fieldset>
+        <fieldset>
+            <legend>Datos de contacto</legend>
+            Correo Electrónico: <input type="email" name="correo" required>
+            Teléfono: <input type="tel">
+        </fieldset>
+        <fieldset>
+            <legend>Elegir un personaje</legend>
+            <select name="personajes" id="">
+                <option value="1">Jessie Pinkman</option>
+                <option value="2">Walter White</option>
+                <option value="3">Saul Goodman</option>
+                <option value="4">Gustavo Fring</option>
+                <option value="5">Pollos Hermanos</option>
+                <option value="6">Otros personajes</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Comentarios</legend>
+            <textarea name="comentarios" id="" cols="30" rows="10" placeholder="Cuentanos tu opinión sobre la serie..."></textarea>
+        </fieldset>
+        <fieldset>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+            <input type="file" value="Adjuntar archivos" accept=".pdf .jpg .png" multiple>
+        </fieldset>
+    </fieldset>
+    </form>
+</body>
