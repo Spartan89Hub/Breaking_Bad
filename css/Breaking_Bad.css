@@ -28,6 +28,8 @@
 .form {
     font-family: Helvetica;
     color: white;
+    width: 800px;
+    margin: auto;
 }
 #tab {
     background-color: #0c3e11;
